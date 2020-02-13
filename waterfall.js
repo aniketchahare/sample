@@ -9,10 +9,10 @@ async.waterfall([
         let arg3 = arg1 + ' and ' + arg2;
         callback(null, arg3);
     },
-    function (arg1, callback) {
+    function (arg12, callback) {
         // arg1 now equals 'Task1 and Task2'
         arg1 += ' completed';
-        callback(null, arg1);
+        callback(null, arg12);
     }
 ], function (err, result) {
     // result now equals to 'Task1 and Task2 completed'
