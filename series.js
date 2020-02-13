@@ -6,7 +6,7 @@ async.series([
       callback(null, 1);
     },
     function(callback) {
-      console.log('two');
+      console.log('two two');
       callback(null, 2);
     },
     function(callback) {
