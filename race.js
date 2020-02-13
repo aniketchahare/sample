@@ -21,7 +21,7 @@ async.race([
     }
 ],
     // main callback
-    function (err, result) {
+    function (err, data) {
         // the result will be equal to 'two' as it finishes earlier than the other 2
-        console.log('The result is ', result);
+        console.log('The result is ', data);
     });
